@@ -1,0 +1,32 @@
+css/* Estilos para elementos con clase .titulo */
+.titulo {
+  color: blue;
+  font-size: 24px;
+}
+
+/* Estilos para todos los elementos con clase .texto */
+.texto {
+  color: gray;
+  font-family: Arial;
+}
+
+/* Estilo aplicado solo al elemento con id especial */
+#especial {
+  color: red;
+  font-weight: bold;
+}
+
+/* Estilo único para el header */
+#header {
+  background-color: lightblue;
+  padding: 20px;
+} 
+
+.img{
+  border-radius: 50%;
+  border: 6px dashed #e91e63;
+  filter: sepia(0.6) saturate(1.2);
+  width: 300px;
+  height: 300px;
+  object-fit: cover;
+}
